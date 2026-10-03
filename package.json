@@ -1,0 +1,11 @@
+{
+  "name": "tg-finder-integrations",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/validate.ts"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
