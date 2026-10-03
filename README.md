@@ -1,6 +1,6 @@
 # TG Finder
 
-MCP and agent integrations for [TG Finder](https://www.telegram-finder.io).
+CLI, MCP and agent integrations for [TG Finder](https://www.telegram-finder.io).
 
 Find Telegram accounts from authorized phone numbers or usernames and discover related public Telegram channels through the hosted TG Finder MCP server.
 
@@ -11,7 +11,7 @@ The root `.mcp.json` configures the hosted server:
 ```json
 {
   "mcpServers": {
-    "telegram-finder": {
+    "tg-finder": {
       "type": "http",
       "url": "https://www.telegram-finder.io/mcp"
     }
@@ -30,8 +30,6 @@ The Grok plugin manifest is at `.grok-plugin/plugin.json`. It declares the hoste
 - `.mcp.json`: configuration for compatible MCP clients.
 - `.grok-plugin/plugin.json`: Grok plugin manifest.
 - `LICENSE`: MIT license for the files in this repository.
-
-CLI files and local skills have not been added yet.
 
 ## License
 
