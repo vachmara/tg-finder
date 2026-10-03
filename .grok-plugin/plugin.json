@@ -1,0 +1,24 @@
+{
+  "name": "tg-finder",
+  "version": "0.1.0",
+  "description": "Find Telegram accounts from authorized phone numbers or usernames and discover related public Telegram channels through the hosted TG Finder MCP server.",
+  "author": {
+    "name": "TG Finder",
+    "url": "https://www.telegram-finder.io"
+  },
+  "homepage": "https://www.telegram-finder.io",
+  "repository": "https://github.com/vachmara/tg-finder",
+  "license": "MIT",
+  "keywords": [
+    "tg-finder",
+    "telegram-finder",
+    "telegram finder"
+  ],
+  "mcpServers": {
+    "telegram-finder": {
+      "type": "http",
+      "url": "https://www.telegram-finder.io/mcp",
+      "note": "Official hosted TG Finder MCP server. Authentication is handled through OAuth."
+    }
+  }
+}
