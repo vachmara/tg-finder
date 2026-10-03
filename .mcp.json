@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "telegram-finder": {
+    "tg-finder": {
       "type": "http",
       "url": "https://www.telegram-finder.io/mcp"
     }

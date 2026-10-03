@@ -20,7 +20,7 @@ const expected = { type: 'http', url: 'https://www.telegram-finder.io/mcp' }
 const config = readObject(resolve(root, '.mcp.json'))
 const manifest = readObject(resolve(root, '.grok-plugin/plugin.json'))
 
-assert.deepEqual(config, { mcpServers: { 'telegram-finder': expected } }, 'Unexpected portable MCP configuration')
+assert.deepEqual(config, { mcpServers: { 'tg-finder': expected } }, 'Unexpected portable MCP configuration')
 const servers = object(manifest.mcpServers)
 assert.deepEqual(Object.keys(servers), ['telegram-finder'], 'Unexpected Grok MCP server')
 const server = object(servers['telegram-finder'])
